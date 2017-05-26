@@ -5,10 +5,9 @@
 
 header {
 	padding: 1em 0 1em 0;
-	margin-bottom: 4em;
 }
-body {
-	background-color: #651807;
+body { 
+    background-image: url(img/scary-background.jpg);
 	font-family: 'Roboto Mono', monospace;
 }
 
@@ -53,8 +52,9 @@ nav a {
 	max-width: 70%;
 	margin: 0 auto;
 	padding: 2em 1em;
-	background-color: #858585;
+	background-color: rgba(0, 0, 0, 0.75);
 	box-shadow: 0 0 50px 10px rgba(0,0,0, .8);
+	height: 100vh;
 }
 
 .article-image {

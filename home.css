@@ -1,9 +1,11 @@
 .mainImgHP {
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 #newProdImgs {
 	display: flex;
-	width: 100%
-	justify-content: space-around;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-basis: auto;
 }
