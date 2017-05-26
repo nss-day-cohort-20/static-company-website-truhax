@@ -8,11 +8,11 @@ header {
 	margin-bottom: 4em;
 }
 body {
-	background-color: darkgrey;
+	background-color: #651807;
 	font-family: 'Roboto Mono', monospace;
 }
 
-h1, h2 {
+h1 {
 	font-family: 'IM Fell DW Pica', serif;
 }
 
@@ -84,36 +84,12 @@ nav a {
 }
 
 .main-content p {
+	padding: 1em;
 	background-color: lightgrey;
 }
-
 
 footer {
 	text-align: center;
 	color: white;
 	padding: 1em 0 1em 0;
 }
-
-
-/*ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #281e16;
-}
-
-li {
-	float: right;
-}
-
-li a {
-	display: block;
-	text-decoration: none;
-	color: white;
-	padding: 12px 15px;
-}
-
-li a:hover {
-	background-color: #5C5C5C;
-}*/
