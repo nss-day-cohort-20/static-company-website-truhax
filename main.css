@@ -8,11 +8,11 @@ header {
 	margin-bottom: 2em;
 }
 body {
-	background-color: #651807;
+	background-color: darkgrey;
 	font-family: 'Roboto Mono', monospace;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'IM Fell DW Pica', serif;
 }
 
@@ -40,13 +40,20 @@ nav a {
 .container {
 	max-width: 70%;
 	margin: 0 auto;
-	padding: 1em;
-	background-color: lightgrey;
+	padding: 2em 1em;
+	background-color: #858585;
+	box-shadow: 0 0 50px 10px rgba(0,0,0, .8);
 }
+
+
+.main-content p {
+	background-color: lightgrey;
+
+}
+
 
 footer {
 	text-align: center;
 	color: white;
 	padding: 1em 0 1em 0;
-
 }
