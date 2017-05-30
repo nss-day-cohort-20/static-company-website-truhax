@@ -71,19 +71,6 @@ nav a {
   margin: 15px;
 }
 
-.main-content {
-	margin: 10px 0 25px 0;
-}
-
-.main-content p {
-	padding: 1em;
-	background-color: lightgrey;
-}
-
-.main-content h2{
-color:white;
-}
-
 footer {
 	text-align: center;
 	color: white;
@@ -97,7 +84,9 @@ footer {
 	padding: 1em;
 	box-shadow: 0 0 20px 5px black;
 }
-
+.main h2 {
+	color: white;
+}
 .imgdiv {
 	float: left;
 	margin: .5em;
