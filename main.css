@@ -80,6 +80,10 @@ nav a {
 	background-color: lightgrey;
 }
 
+.main-content h2{
+color:white;
+}
+
 footer {
 	text-align: center;
 	color: black;

@@ -26,7 +26,7 @@
  	  url: "./img/hacksaw5.jpg"
  	},
  	{ name: "Mini Hacksaw",
- 	  description: "Ergonomically designed grip with thumb rest for maximum comfort. Handle covers blade to help protect user’s hands.",
+ 	  description: "Ergonomically designed grip with thumb rest for maximum comfort. Handle covers blade to help protect user&#8217;s hands.",
  	  price: "$3.99",
  	  url: "./img/hacksaw6.jpg"
  	},
@@ -36,7 +36,7 @@
  	  url: "./img/hacksaw7.jpg"
  	},
  	{ name: "Bloody Hacksaw",
- 	  description: "The Tubular High-Tension Hacksaw features 45° and 90° adjustable blade angles as well as 300lbs of blade tension for flush cuts. The hacksaw can store up to 8 blades and has a large tension knob to make changing blades quick and easy.",
+ 	  description: "The Tubular High-Tension Hacksaw features 45&deg; and 90&deg; adjustable blade angles as well as 300lbs of blade tension for flush cuts. The hacksaw can store up to 8 blades and has a large tension knob to make changing blades quick and easy.",
  	  price: "$300.99",
  	  url: "./img/hacksaw8.jpg"
  	}
@@ -52,9 +52,10 @@ for (var i = 0; i < products.length; i++) {
 	// 
 	// "<div id='products" + i + "''>"
 	console.log(products.url);
-	productCards.innerHTML += "<div id='products" + i + "''>"
-		 + "<p>Item: " + products[i].name + "</p>"
-		+ "<p>Description: " + products[i].description + "</p>"
-		+"<p>Price: " + products[i].price + "</p>"
-		+"<img src=" + products[i].url + "></div>";
+	productCards.innerHTML += "<div id='products' class='imgdiv'" + i + "' class='main-content'>"
+		+"<img src=" + products[i].url + "></div>"
+		+ "<p class='pdiv'>Item: " + products[i].name + "</p>"
+		+ "<p class='pdiv'>Description: " + products[i].description + "</p>"
+		+"<p class='pdiv'>Price: " + products[i].price + "</p>";
+		
 }
