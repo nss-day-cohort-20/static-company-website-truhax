@@ -85,7 +85,7 @@ footer {
 	color: white;
 	padding: 1em 0 1em 0;
 }
-
+/*testimonial styling below*/
 .main {
 	margin-bottom: 2em;
 	background-color: white;
@@ -94,18 +94,17 @@ footer {
 	box-shadow: 0 0 20px 5px black;
 }
 
-.testimonialimg {
-}
-
-.testimonialparag
-.pdiv {
-	display: inline-block;
-}
-.pdiv {
-	width: 60%;
-}
 .imgdiv {
-	display: inline-block;
+	float: left;
 	margin: .5em;
 }
 
+.main section {
+	overflow: auto;
+}
+.pdiv {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 1em;
+	color: #3c3d3f;
+}
