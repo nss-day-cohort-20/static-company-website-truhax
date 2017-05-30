@@ -15,7 +15,7 @@ h1 {
 	font-family: 'IM Fell DW Pica', serif;
 }
 
-h3 {
+.bigname h3 {
 	font-family: 'IM Fell DW Pica', serif;
 	text-align: center;
 	font-weight: bold;
@@ -23,7 +23,7 @@ h3 {
 	padding-bottom: 20px;
 }
 
-h2 {
+.bigname h2 {
 	font-size: 45px;
 }
 
