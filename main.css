@@ -108,3 +108,34 @@ footer {
 	padding-left: 1em;
 	color: #3c3d3f;
 }
+
+/*for home page*/
+
+#mainImgHP {
+	width: 100%;
+}
+
+#newProdImgs {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-basis: auto;
+	padding-top: 20px;
+}
+
+p {
+	padding-top: 20px;
+	color: white;
+}
+
+#homePageTest {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+figcaption {
+	color: white;
+	text-align: center;
+	font-size: .75em;
+}
