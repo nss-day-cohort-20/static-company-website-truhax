@@ -119,10 +119,21 @@ footer {
 	padding-top: 20px;
 }
 
-#homePageTest {
-	display: flex;
-	justify-content: space-around;
+#flexWrapper {
+	
+	display: inline-flex;
 	padding: 20px;
+	float: left;
+}
+
+#homePageTest {
+	flex-wrap: nowrap;
+
+	max-width: 40%;
+}
+
+#homePageTest p {
+	display: inline;
 }
 
 figcaption {
