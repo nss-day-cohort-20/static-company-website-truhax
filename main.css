@@ -23,7 +23,7 @@ h1 {
 	padding-bottom: 20px;
 }
 
-.bigname h2 {
+.container h2 {
 	font-size: 45px;
 }
 
@@ -84,7 +84,10 @@ footer {
 	padding: 1em;
 	box-shadow: 0 0 20px 5px black;
 }
-.main h2 {
+
+
+
+.container h2 {
 	color: white;
 }
 .imgdiv {
@@ -129,7 +132,7 @@ figcaption {
 }
 
 h4 {
-	color: white;
+	color: black;
 	font-size: 1.5em;
 	padding: 20px;
 }
