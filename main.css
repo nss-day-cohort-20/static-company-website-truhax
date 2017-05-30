@@ -86,7 +86,7 @@ color:white;
 
 footer {
 	text-align: center;
-	color: white;
+	color: black;
 	padding: 1em 0 1em 0;
 }
 /*testimonial styling below*/
@@ -127,11 +127,6 @@ footer {
 	padding-top: 20px;
 }
 
-/*p {
-	padding-top: 20px;
-	color: white;
-}*/
-
 #homePageTest {
 	display: flex;
 	justify-content: space-around;
@@ -142,4 +137,10 @@ figcaption {
 	color: white;
 	text-align: center;
 	font-size: .75em;
+}
+
+h4 {
+	color: white;
+	font-size: 1.5em;
+	padding: 20px;
 }
