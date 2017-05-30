@@ -132,6 +132,11 @@ h4 {
 	padding: 20px;
 }
 
+h5 {
+	color:white;
+	font-size: 1.2em;
+}
+
 .homeSections {
 	display: inline-block;
 	width: 49%;
