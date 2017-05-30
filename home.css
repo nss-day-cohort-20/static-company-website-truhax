@@ -8,4 +8,7 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 	flex-basis: auto;
+	padding-top: 20px
+	color: white;
 }
+
