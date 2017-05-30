@@ -1,5 +1,7 @@
-.mainImgHP {
-	max-width: 100%;
+#mainImgHP {
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
 	height: auto;
 }
 
@@ -8,7 +10,22 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 	flex-basis: auto;
-	padding-top: 20px
+	padding-top: 20px;
+}
+
+p {
+	padding-top: 20px;
 	color: white;
 }
 
+#homePageTest {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+figcaption {
+	color: white;
+	text-align: center;
+	font-size: .75em;
+}
