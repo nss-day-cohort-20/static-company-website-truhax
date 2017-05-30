@@ -47,15 +47,22 @@
 var productCards = document.getElementById("productCards");
 
 for (var i = 0; i < products.length; i++) {
-	console.log(products[i].name);
-	// console.log(reindeer[i]);
-	// 
-	// "<div id='products" + i + "''>"
-	console.log(products.url);
-	productCards.innerHTML += "<div id='products' class='imgdiv'" + i + "' class='main-content'>"
-		+"<img src=" + products[i].url + "></div>"
-		+ "<p class='pdiv'>Item: " + products[i].name + "</p>"
-		+ "<p class='pdiv'>Description: " + products[i].description + "</p>"
-		+"<p class='pdiv'>Price: " + products[i].price + "</p>";
+	// console.log(products[i].name);
+	// console.log(products.url);
+	productCards.innerHTML += 
+	"<article class='main'>"
+		 + "<section>"
+			 + "<div class='imgdiv'>"
+				+"<img src=" + products[i].url
+				// " class='testimonialimg'>" +
+				+ ">"
+			+ "</div>"
+			+ "<div class='pdiv'>"
+				+ "<p class='testimonialparag'>Item: " + products[i].name + "</p>"
+				+ "<p class='testimonialparag'>Description: " + products[i].description + "</p>"
+				+ "<p class='testimonialparag'>Price: " + products[i].price + "</p>"
+			+ "</div>"
+		+ "</section>"
+	+ "</article>";
 		
 }
