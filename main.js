@@ -52,9 +52,10 @@ for (var i = 0; i < products.length; i++) {
 	// 
 	// "<div id='products" + i + "''>"
 	console.log(products.url);
-	productCards.innerHTML += "<div id='products" + i + "' class='main-content'>"
-		 + "<p>Item: " + products[i].name + "</p>"
-		+ "<p>Description: " + products[i].description + "</p>"
-		+"<p>Price: " + products[i].price + "</p>"
-		+"<img src=" + products[i].url + "></div>";
+	productCards.innerHTML += "<div id='products' class='imgdiv'" + i + "' class='main-content'>"
+		+"<img src=" + products[i].url + "></div>"
+		+ "<p class='pdiv'>Item: " + products[i].name + "</p>"
+		+ "<p class='pdiv'>Description: " + products[i].description + "</p>"
+		+"<p class='pdiv'>Price: " + products[i].price + "</p>";
+		
 }
