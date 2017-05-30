@@ -58,7 +58,7 @@ for (var i = 0; i < products.length; i++) {
 				+ ">"
 			+ "</div>"
 			+ "<div class='pdiv'>"
-				+ "<p class='testimonialparag'>Item: " + products[i].name + "</p>"
+				+ "<p class='testimonialparag'>Item: <strong>" + products[i].name + "</strong></p>"
 				+ "<p class='testimonialparag'>Description: " + products[i].description + "</p>"
 				+ "<p class='testimonialparag'>Price: " + products[i].price + "</p>"
 			+ "</div>"
