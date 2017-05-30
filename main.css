@@ -23,7 +23,8 @@ h1 {
 	padding-bottom: 20px;
 }
 
-.container h2 {
+.container h2, 
+.container h4 {
 	font-size: 45px;
 }
 
