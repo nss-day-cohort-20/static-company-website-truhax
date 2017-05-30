@@ -116,23 +116,6 @@ footer {
 	padding-top: 20px;
 }
 
-#flexWrapper {
-	
-	display: inline-flex;
-	padding: 20px;
-	float: left;
-}
-
-#homePageTest {
-	flex-wrap: nowrap;
-
-	max-width: 40%;
-}
-
-#homePageTest p {
-	display: inline;
-}
-
 figcaption {
 	color: white;
 	text-align: center;
@@ -145,3 +128,7 @@ h4 {
 	padding: 20px;
 }
 
+.homeSections {
+	display: inline-block;
+	width: 49%;
+}
