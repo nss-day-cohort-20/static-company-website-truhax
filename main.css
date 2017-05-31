@@ -104,8 +104,24 @@ footer {
 	color: #3c3d3f;
 }
 
+/*Product page Card stying*/
 #productCards p {
 	margin: 0 0 10px 0;
+}
+
+div#productCards {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	justify-content: space-around;
+}
+
+#productCards article.main {
+	max-width: 40%;
+}
+
+#productCards .imdiv {
+	display: inline-block;
 }
 
 /*for home page*/
