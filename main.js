@@ -17,12 +17,12 @@
  	},
  	{ name: "High-Tension Hacksaw",
  	  description: "Stanley's Hi-Tension Hacksaw is strong, durable and ergonomic making it ideal of hard to reach places.",
- 	  price: "15.65",
+ 	  price: "$15.65",
  	  url: "./img/hacksaw4.jpg"
  	},
  	{ name: "Low-Profile Hacksaw",
  	  description: "This hacksaw has a durable, one-piece die-cast metal body designed for the ultra-high tension of 330 pounds. It boasts a pre-tensioning mechanism that holds the blade in place for quick and easy blade changes, bringing real convenience to this versatile, useful hand tool.",
- 	  price: "$.14.50",
+ 	  price: "$14.50",
  	  url: "./img/hacksaw5.jpg"
  	},
  	{ name: "Mini Hacksaw",
@@ -58,9 +58,9 @@ for (var i = 0; i < products.length; i++) {
 				+ ">"
 			+ "</div>"
 			+ "<div class='pdiv'>"
-				+ "<p class='testimonialparag'>Item: <strong>" + products[i].name + "</strong></p>"
-				+ "<p class='testimonialparag'>Description: " + products[i].description + "</p>"
-				+ "<p class='testimonialparag'>Price: " + products[i].price + "</p>"
+				+ "<p class='testimonialparag'><strong>" + products[i].name + "</strong></p>"
+				+ "<p class='testimonialparag'>" + products[i].description + "</p>"
+				+ "<p class='testimonialparag'>" + products[i].price + "</p>"
 			+ "</div>"
 		+ "</section>"
 	+ "</article>";
