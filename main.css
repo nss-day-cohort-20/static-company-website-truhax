@@ -91,7 +91,7 @@ footer {
 }
 
 
-.container > article.main > section > .imgdiv {
+section.imgsect > .imgdiv {
 	float: left;
 	margin: .5em;
 }
